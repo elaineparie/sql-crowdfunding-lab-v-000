@@ -12,16 +12,6 @@ JOIN pledges
 ON projects.id = pledges.project_id
 GROUP BY projects.title
 ORDER BY projects.title"
-
-#SELECT employee, sum(bonus) from employee_bonus group by employee;
-
-#{}"SELECT projects.title, SUM(pledges) FROM projects GROUP BY projects ORDER BY projects.title;"
-
-#SELECT projects.title, sum(bopledges.amountnus) from employee_bonus group by employee;
-
-
-#JOIN cats ON cats_owners.cat_id = cats.id
-#WHERE cats_owners.owner_id = 2;
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
