@@ -13,7 +13,7 @@ INNER JOIN pledges
 ON projects.id = pledges.user_id
 ORDER BY projects.title"
 
-SELECT employee, sum(bonus) from employee_bonus group by employee;
+#SELECT employee, sum(bonus) from employee_bonus group by employee;
 
 #{}"SELECT projects.title, SUM(pledges) FROM projects GROUP BY projects ORDER BY projects.title;"
 
